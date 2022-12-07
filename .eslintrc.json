@@ -1,0 +1,13 @@
+{
+    "extends": [
+        "akrc"
+    ],
+    "overrides": [
+        {
+            "files": ["./packages/manage/*"],
+            "rules": {
+                "no-undef": "off"
+            }
+        }
+    ]
+}
