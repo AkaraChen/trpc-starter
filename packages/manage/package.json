@@ -1,4 +1,5 @@
 {
+  "name": "manage",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -8,6 +9,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "3.0.0"
+    "nuxt": "3.0.0",
+    "vue": "^3.2.45"
   }
 }
