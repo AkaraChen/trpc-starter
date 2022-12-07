@@ -5,7 +5,7 @@ log4js.configure({
     appenders: {
         core: {
             type: 'file',
-            filename: '../core.log'
+            filename: '../../core.log'
         }
     },
     categories: {default: {appenders: ['core'], level: 'info'}}
