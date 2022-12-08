@@ -12,5 +12,9 @@
   "devDependencies": {
     "eslint": "^8.29.0",
     "eslint-config-akrc": "^0.0.8"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3"
   }
 }

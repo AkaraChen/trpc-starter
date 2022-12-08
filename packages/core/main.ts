@@ -5,16 +5,23 @@ import logger from './global/logger';
 import 'reflect-metadata';
 import {route} from './router';
 import {init} from './model/source';
-
-const trpc = trpcExpress.createExpressMiddleware({router: route});
+import {config, currentMode} from 'shared/env';
 
 const start = async () => {
+    logger.info('Loading config...');
+
+    const {COREURI} = config;
+    const {port} = new URL(COREURI);
+
+    logger.info(`Config loaded, current in ${currentMode} mode.`);
+
+    const trpc = trpcExpress.createExpressMiddleware({router: route});
     logger.info('Starting trpc server...');
     const app = express();
     app.use('/trpc', cors(), trpc);
     await init();
-    app.listen(3000, () => {
-        logger.success('Server is running on http://localhost:3000');
+    app.listen(port, () => {
+        logger.success(`Server is running on ${COREURI}`);
     });
 };
 
