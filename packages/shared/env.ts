@@ -20,6 +20,7 @@ const production = fs.readFileSync(
 
 export const isDEV = process.env.NODE_ENV === 'development';
 export const currentMode = isDEV ? 'development' : 'production';
+export type mode = typeof currentMode;
 
 const current = isDEV
     ? development

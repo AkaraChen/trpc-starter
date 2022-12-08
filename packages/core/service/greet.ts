@@ -1,7 +1,7 @@
 export const createGreet = (name = 'world') => {
-    return [...name]
+    return `Hello, ${[...name]
         .map((item, index) => index
             ? item
             : item.toUpperCase())
-        .join('');
+        .join('')}!`;
 };

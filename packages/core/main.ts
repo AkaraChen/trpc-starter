@@ -20,9 +20,8 @@ const start = async () => {
     const app = express();
     app.use('/trpc', cors(), trpc);
     await init();
-    app.listen(port, () => {
-        logger.success(`Server is running on ${COREURI}`);
-    });
+    app.listen(port, () =>
+        logger.success(`Server is running on ${COREURI}`));
 };
 
 start();

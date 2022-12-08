@@ -5,6 +5,8 @@
         "esModuleInterop": true,
         "moduleResolution": "node",
         "module": "ESNext",
-        "target": "ESNext"
+        "target": "ESNext",
+        "strict": true,
+        "strictNullChecks": true
     },
 }
