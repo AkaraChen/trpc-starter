@@ -12,10 +12,10 @@ export type config = {
 const directory = path.resolve('../../');
 
 const development = fs.readFileSync(
-    path.resolve(directory, './.dev.env')
+    path.resolve(directory, './.env.development')
 );
 const production = fs.readFileSync(
-    path.resolve(directory, '.prod.env')
+    path.resolve(directory, './.env.production')
 );
 
 export const isDEV = process.env.NODE_ENV === 'development';

@@ -102,6 +102,13 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Core database
 *.db
-*.env
+
+# Macos
 .DS_Store
+
+# dotenv
+.env.development
+.env.production
