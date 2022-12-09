@@ -6,7 +6,6 @@
         "moduleResolution": "node",
         "module": "ESNext",
         "target": "ESNext",
-        "strict": true,
         "strictNullChecks": true
     },
 }
