@@ -10,7 +10,7 @@ import {config, currentMode} from 'shared/env';
 const start = async () => {
     logger.info('Loading config...');
 
-    const {COREURI} = config;
+    const {COREURI, FRONTENDURI, MANAGEURI} = config;
     const {port} = new URL(COREURI);
 
     logger.info(`Config loaded, current in ${currentMode} mode.`);
@@ -18,7 +18,11 @@ const start = async () => {
     const trpc = trpcExpress.createExpressMiddleware({router: route});
     logger.info('Starting trpc server...');
     const app = express();
-    app.use('/trpc', cors(), trpc);
+    app.use('/trpc', cors(
+        {
+            origin: [FRONTENDURI, MANAGEURI]
+        }
+    ), trpc);
     await init();
     app.listen(port, () =>
         logger.success(`Server is running on ${COREURI}`));
