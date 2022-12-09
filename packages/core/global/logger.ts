@@ -1,5 +1,6 @@
 import log4js from 'log4js';
 import consola from 'consola';
+import {currentMode} from 'shared/env';
 
 log4js.configure({
     appenders: {
@@ -8,7 +9,14 @@ log4js.configure({
             filename: '../../core.log'
         }
     },
-    categories: {default: {appenders: ['core'], level: 'info'}}
+    categories: {
+        default: {
+            appenders: ['core'],
+            level: currentMode === 'development'
+                ? 'info'
+                : 'warn'
+        }
+    }
 });
 
 const logger = log4js.getLogger();

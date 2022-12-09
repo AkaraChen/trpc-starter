@@ -7,9 +7,10 @@ A production-ready tRPC backend + Nuxt3 admin dashboard + Next 13 frontend solut
 ## Features
 
 1. Pnpm monorepo.
-2. Eslint (eslint-config-akrc)
+2. Eslint included (eslint-config-akrc)
 3. Multiple dotenv.
-4. More in future.
+4. Fully typed, the best type safety.
+5. More in future.
 
 ## Techstack
 
@@ -32,5 +33,5 @@ A production-ready tRPC backend + Nuxt3 admin dashboard + Next 13 frontend solut
 1. Next13
 2. React18
 3. Jotai(TODO)
-4. TailwindCSS(TODO)
+4. TailwindCSS
 5. Motion(TODO)

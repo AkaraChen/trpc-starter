@@ -6,6 +6,7 @@ import 'reflect-metadata';
 import {route} from './router';
 import {init} from './model/source';
 import {config, currentMode} from 'shared/env';
+import analyse from './middleware/analyse';
 
 const start = async () => {
     logger.info('Loading config...');
@@ -15,6 +16,7 @@ const start = async () => {
     const trpc = trpcExpress.createExpressMiddleware({router: route});
     logger.info('Starting trpc server...');
     const app = express();
+    app.use(analyse);
     app.use('/trpc', cors(), trpc);
     await init();
     app.listen(port, () =>
