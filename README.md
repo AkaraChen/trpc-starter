@@ -12,6 +12,11 @@ A production-ready tRPC backend + Nuxt3 admin dashboard + Next 13 frontend solut
 4. Fully typed, the best type safety.
 5. More in future.
 
+## TODO
+
+1. Auth (JWT, trpc middleware, vue directive)
+2. Test (Unit, E2E)
+
 ## Techstack
 
 ### Backend
