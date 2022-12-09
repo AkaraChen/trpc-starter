@@ -4,8 +4,7 @@ import styles from '../styles/Home.module.css';
 import {trpc} from '../utils/trpc';
 
 export default function Home() {
-    const hello = trpc.greet.create.useQuery('akara');
-    console.log(hello.data);
+    trpc.greet.create.useQuery('akara');
     return (
         <div className={styles.container}>
             <Head>
