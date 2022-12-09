@@ -11,5 +11,13 @@
   "devDependencies": {
     "nuxt": "3.0.0",
     "vue": "^3.2.45"
+  },
+  "dependencies": {
+    "@trpc/client": "^10.4.3",
+    "@trpc/server": "^10.4.3",
+    "core": "workspace:^1.0.0",
+    "shared": "workspace:^1.0.0",
+    "trpc-nuxt": "^0.4.3",
+    "zod": "^3.19.1"
   }
 }
