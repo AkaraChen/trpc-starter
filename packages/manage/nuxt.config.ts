@@ -9,6 +9,6 @@ export default defineNuxtConfig({
     },
     modules: [
         'nuxt-windicss',
-        ['@pinia/nuxt', {autoImports: ['defineStore']}]
+        '@pinia/nuxt'
     ]
 });
