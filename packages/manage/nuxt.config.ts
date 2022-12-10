@@ -6,5 +6,6 @@ export default defineNuxtConfig({
         public: {
             core: config.COREURI
         }
-    }
+    },
+    modules: ['nuxt-windicss', '@pinia/nuxt']
 });

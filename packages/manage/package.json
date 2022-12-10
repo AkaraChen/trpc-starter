@@ -3,19 +3,22 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev -p 3123",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
     "nuxt": "3.0.0",
+    "nuxt-windicss": "^2.6.0",
     "vue": "^3.2.45"
   },
   "dependencies": {
+    "@pinia/nuxt": "^0.4.6",
     "@trpc/client": "^10.4.3",
     "@trpc/server": "^10.4.3",
     "core": "workspace:^1.0.0",
+    "naive-ui": "^2.34.2",
     "shared": "workspace:^1.0.0",
     "trpc-nuxt": "^0.4.3",
     "zod": "^3.19.1"

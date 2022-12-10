@@ -30,13 +30,13 @@ A production-ready tRPC backend + Nuxt3 admin dashboard + Next 13 frontend solut
 
 1. Nuxt3
 2. Vue3
-3. NaiveUI(TODO)
+3. NaiveUI
 4. Pinia(TODO)
 
 ### Frontend
 
 1. Next13
 2. React18
-3. Jotai(TODO)
+3. Jotai
 4. TailwindCSS
-5. Motion(TODO)
+5. Motion

@@ -11,6 +11,7 @@ const file: Handler = (request, response, next) => {
         if (path.endsWith(fileExtension)) {
             logger.warn(`Seems like an attacker, ${ip}, ${path}`);
             response.send('Something wrong');
+            return;
         }
     }
     next();
