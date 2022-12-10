@@ -60,6 +60,7 @@ importers:
       naive-ui: ^2.34.2
       nuxt: 3.0.0
       nuxt-windicss: ^2.6.0
+      pinia: ^2.0.28
       shared: workspace:^1.0.0
       trpc-nuxt: ^0.4.3
       vue: ^3.2.45
@@ -70,6 +71,7 @@ importers:
       '@trpc/server': 10.4.3
       core: link:../core
       naive-ui: 2.34.2_vue@3.2.45
+      pinia: 2.0.28_vue@3.2.45
       shared: link:../shared
       trpc-nuxt: 0.4.3_pfoaturpu3trxzmpfmvoug3sta
       zod: 3.19.1

@@ -7,5 +7,8 @@ export default defineNuxtConfig({
             core: config.COREURI
         }
     },
-    modules: ['nuxt-windicss', '@pinia/nuxt']
+    modules: [
+        'nuxt-windicss',
+        ['@pinia/nuxt', {autoImports: ['defineStore']}]
+    ]
 });

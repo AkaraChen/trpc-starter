@@ -4,7 +4,7 @@
     ],
     "overrides": [
         {
-            "files": ["./packages/manage/*"],
+            "files": ["./packages/manage/**.ts"],
             "rules": {
                 "no-undef": "off"
             }

@@ -19,6 +19,7 @@
     "@trpc/server": "^10.4.3",
     "core": "workspace:^1.0.0",
     "naive-ui": "^2.34.2",
+    "pinia": "^2.0.28",
     "shared": "workspace:^1.0.0",
     "trpc-nuxt": "^0.4.3",
     "zod": "^3.19.1"
