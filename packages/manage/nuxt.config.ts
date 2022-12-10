@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     },
     modules: [
         'nuxt-windicss',
-        '@pinia/nuxt'
+        '@pinia/nuxt',
+        '@vue-macros/nuxt'
     ]
 });
