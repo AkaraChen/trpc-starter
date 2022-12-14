@@ -15,5 +15,6 @@ export const init = async () => {
         logger.success('Init database connection success.');
     } catch (error) {
         logger.error(error);
+        throw new Error(error);
     }
 };
