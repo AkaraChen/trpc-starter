@@ -11,5 +11,6 @@ export default defineNuxtConfig({
         'nuxt-windicss',
         '@pinia/nuxt',
         '@vue-macros/nuxt'
-    ]
+    ],
+    ssr: false
 });
