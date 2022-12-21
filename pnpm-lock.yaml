@@ -7,14 +7,14 @@ importers:
       cross-env: ^7.0.3
       dotenv: ^16.0.3
       eslint: ^8.29.0
-      eslint-config-akrc: ^0.0.10
+      eslint-config-akrc: ^0.0.11
       taze: ^0.8.4
     dependencies:
       cross-env: 7.0.3
       dotenv: 16.0.3
     devDependencies:
       eslint: 8.29.0
-      eslint-config-akrc: 0.0.10
+      eslint-config-akrc: 0.0.11
       taze: 0.8.4
 
   packages/core:
@@ -3660,8 +3660,8 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-config-akrc/0.0.10:
-    resolution: {integrity: sha512-G/Gc+YchTG+IGCWRny6aabH9+5xTijTDNLYj460rPGPRDA0bGvoRc9x6IZPjAgLZojrQCiIwkHCp4rQ0binBWg==}
+  /eslint-config-akrc/0.0.11:
+    resolution: {integrity: sha512-Yt3D9nG8A3EFiAufCEsPUet/fGvWEko777C0Ra6WyShXGf/DdP3icjXj2Btr3UCvn8Gnfeyw3OYo1sLR9K0SUw==}
     requiresBuild: true
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.46.1_mqzxmroayievgzgel6yrqgih5i
