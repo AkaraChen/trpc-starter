@@ -104,7 +104,7 @@ importers:
       autoprefixer: ^10.4.13
       core: workspace:^1.0.0
       esno: ^0.16.3
-      framer-motion: ^7.8.0
+      framer-motion: ^8.0.0
       jotai: ^1.11.2
       next: 13.0.7
       postcss: ^8.4.20
@@ -125,7 +125,7 @@ importers:
       '@types/react-dom': 18.0.9
       core: link:../core
       esno: 0.16.3
-      framer-motion: 7.8.0_biqbaboplfbrettd7655fr4n2y
+      framer-motion: 8.0.0_biqbaboplfbrettd7655fr4n2y
       jotai: 1.11.2_react@18.2.0
       next: 13.0.7_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
@@ -4288,8 +4288,8 @@ packages:
     resolution: {integrity: sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==}
     dev: true
 
-  /framer-motion/7.8.0_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-Yzbc0RGzKnkdRxPZbJIVtizX40hLGErXBRI6Uz1WE0OLNZpZqqZa9HaI/sdAhrx4215uczQ+m3C9PA+pwHf+gA==}
+  /framer-motion/8.0.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-MH5oWf2kBxoMlo8apN/9rAV3GiVgPWOQTW2RES9LxayKUCbdsvcxIvR9AQOD6se8+glWKrnrOhNBvVtOSonFJw==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
