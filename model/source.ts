@@ -1,10 +1,10 @@
 import logger from '../global/logger';
-import {DataSource} from 'typeorm';
+import { DataSource } from 'typeorm';
 import Todo from './todo';
 
 export const AppDataSource = new DataSource({
     type: 'sqlite',
-    database: '../../data.db',
+    database: '../data.db',
     entities: [Todo]
 });
 

@@ -1,5 +1,5 @@
-import {router} from './trpc';
-import {greet} from './controller/greet';
+import { router } from './trpc';
+import { greet } from './controller/greet';
 
 export const route = router({
     greet
