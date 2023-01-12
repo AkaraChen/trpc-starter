@@ -4,9 +4,9 @@ import logger from './global/logger';
 import 'reflect-metadata';
 import { route } from './router';
 import { init } from './model/source';
-import analyse from './middleware/analyse';
-import cors from './middleware/cors';
-import security from './middleware/security';
+import analyse from './middleware/express/analyse';
+import cors from './middleware/express/cors';
+import security from './middleware/express/security';
 import { config, currentMode } from './env';
 
 const start = async () => {
