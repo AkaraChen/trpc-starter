@@ -1,6 +1,6 @@
 import log4js from 'log4js';
 import consola from 'consola';
-import { currentMode } from '../env';
+import { currentMode } from '@/env';
 
 log4js.configure({
     appenders: {

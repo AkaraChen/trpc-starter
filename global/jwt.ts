@@ -1,6 +1,9 @@
 import * as jose from 'jose';
+import { config } from '@/env';
 
-const secret = new TextEncoder().encode('114514');
+const { JWTSECRET } = config;
+
+const secret = new TextEncoder().encode(JWTSECRET);
 
 const alg = 'HS256';
 const issuer = 'zhiqiang inc.';

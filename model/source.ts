@@ -1,4 +1,4 @@
-import logger from '../global/logger';
+import logger from '@/global/logger';
 import { DataSource } from 'typeorm';
 import Todo from './todo';
 

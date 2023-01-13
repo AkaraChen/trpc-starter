@@ -6,6 +6,9 @@
         "moduleResolution": "node",
         "module": "ESNext",
         "target": "ESNext",
-        "strictNullChecks": true
+        "strictNullChecks": true,
+        "paths": {
+            "@/*": ["./*"]
+        }
     }
 }

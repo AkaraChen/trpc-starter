@@ -1,5 +1,5 @@
-import { createGreet } from '../service/greet';
-import { procedure, router } from '../trpc';
+import { createGreet } from '@/service/greet';
+import { procedure, router } from '@/trpc';
 import { z } from 'zod';
 
 export const greet = router({

@@ -1,8 +1,8 @@
 import { Handler } from 'express';
 import helmet from 'helmet';
-import logger from '../../global/logger';
+import logger from '@/global/logger';
 import rateLimit from 'express-rate-limit';
-import { isDEV } from '../../env';
+import { isDEV } from '@/env';
 
 const fileExtensions = ['php', 'asp', 'js', 'ts'];
 const file: Handler = (request, response, next) => {
